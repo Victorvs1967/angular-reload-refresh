@@ -1,9 +1,10 @@
 <div class="container">
-  <p>App Component</p>
+  <p>Test Component</p>
 
   <button (click)="reloadCurrent()">Reload Current Route</button>
   <button (click)="reloadPage()">Reload Page</button>
-  <button routerLink="/test">Load TestComponent</button>
+  <button routerLink="/test/child">Load ChildComponent</button>
+  <button (click)="reloadChild()">Reload ChildComponent</button>
 
   <router-outlet></router-outlet>
 </div>
